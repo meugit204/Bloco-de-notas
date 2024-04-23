@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloco de Notas</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="imagens/notas-01.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Minha Anotações</h1>
+      <div class="btn">
+        <button class="branco" onclick="mudarCorDeFundo('black', 'white')">
+          Modo Escuro
+        </button>
+        <button class="preto" onclick="mudarCorDeFundo('white', 'black')">
+          Modo Claro
+        </button>
+      </div>
+      <!--btn-->
+    </div>
+    <!--title-->
+    <div class="container-anotacoes"></div>
+    <!--container-anotacoes-->
+    <div class="btn-add">+</div>
+    <!--btn-add-->
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/function-add-bloco.js"></script>
+  </body>
+</html>
